@@ -32,8 +32,10 @@ public class LoginTest {
 		driver.findElement(By.id("identifierId")).sendKeys("manaliprafullpihu@gmail.com");
 		
 		driver.findElement(By.xpath("//*[@id='identifierNext']/span")).click();
-		
+		driver.findElement(By.name("password")).sendKeys("9096366517");
+		driver.findElement(By.xpath("//*[@id='passwordNext']/span/span")).click();
 
+		
 
 }
 	@AfterSuite
